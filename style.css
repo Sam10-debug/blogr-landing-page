@@ -50,7 +50,9 @@ h1{
 }
 .tooltip{
     display: flex;
-    gap: .9rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
     margin-top: 20px;
 }
 .tool1{
@@ -140,10 +142,10 @@ h3{
 .phone{
     width: 140px;
     position: absolute;
-    top: 114%;
+    top: 120%;
     z-index: 1;
     margin-top: 2.5rem;
-    left: 40%;
+    left: 35%;
     
 }
 .div-4{
@@ -172,7 +174,7 @@ h4{
     padding: 2rem 0rem;
     border-top-right-radius: 3rem;
     line-height: 1.5;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 h5{
     font-size: 2rem;
@@ -187,7 +189,7 @@ h5{
 }
 .div-54>p:first-of-type{
     margin-bottom: 1rem;
-    argin-top: 1rem;
+    margin-top: 1rem;
 }
 .attribution{
     margin-top: 3rem;
