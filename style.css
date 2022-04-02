@@ -137,11 +137,12 @@ h3{
   
 }
 .phone{
-    width: 170px;
+    width: 140px;
     position: absolute;
     top: 117%;
     z-index: 1;
     margin-top: 2.5rem;
+    left: 30%;
     
 }
 .div-4{
@@ -189,4 +190,12 @@ h5{
 }
 .attribution{
     margin-top: 3rem;
+}
+.touch:hover{
+    text-decoration: underline;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: hsl(240, 2%, 79%);
 }
