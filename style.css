@@ -131,7 +131,7 @@ h1{
     padding: 0.3rem;
     border-radius: 1rem;
     color: #fff;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 .sixth:hover{
     background-color:   hsl(13, 100%, 72%);
@@ -140,7 +140,7 @@ h1{
     border-radius: 1rem;
     color: white;
     margin-bottom: 1rem;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 .tool2{
     display: flex;
