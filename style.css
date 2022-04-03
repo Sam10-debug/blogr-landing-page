@@ -38,6 +38,9 @@ img{
     left: 82%;
     height: 13px;
 }
+.hamburger.active{
+    display: none;
+}
 h1{
     font-size: 1.2rem;
     text-align: center;
@@ -67,6 +70,75 @@ h1{
     height: 30px;
     color: white;
     font-weight: bold;
+}
+.productwrap{
+    background-color: white;
+    position: absolute;
+    width: 48%;
+    height: 285px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    top: 6%;
+    left: 26%;
+    align-items: center;
+    line-height: 1.5;
+    font-weight: 500;
+    display: none;
+    box-shadow: 8px 14px 0px -5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 8px 14px 0px -5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 8px 14px 0px -5px rgba(0,0,0,0.1);
+}
+.productwrap.active{
+    display: block;
+}
+.close{
+    display: none;
+    position: absolute;
+    top: 2%;
+    width: 15px;
+    left: 70%;
+}
+.close.active{
+   display: block;
+}
+.first{
+    display: flex;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 30%;
+}
+.productwrap img{
+    width: 15px;
+}
+.fourth{
+    background-color:  hsl(240, 2%, 89%);
+    padding: 1rem;
+    line-height: 1.5;
+    width: 90%;
+    border-radius: 0.2rem;
+    margin:1rem 0.2rem;
+}
+
+.fourth a{
+    color: black;
+}
+.fifth:hover{
+    background-color:   hsl(13, 100%, 72%);
+    width: 50%;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    color: #fff;
+    margin-left: 20%;
+}
+.sixth:hover{
+    background-color:   hsl(13, 100%, 72%);
+    width: 50%;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 20%;
 }
 .tool2{
     display: flex;
