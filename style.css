@@ -33,6 +33,32 @@ img{
     background-position: top -150px left -150px;
     margin-bottom: 1.5rem;
 }
+.log{
+    display: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.log:hover{
+    border-radius: 2rem;
+    background-color: white;
+    width: 90px;
+    text-align: center;
+    color: hsl(353, 100%, 62%);
+}
+.sign:hover{
+    border-radius: 2rem;
+    background-color: white;
+    width: 90px;
+    text-align: center;
+    color: hsl(353, 100%, 62%);
+}
+.sign{
+    display: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
 .card .div-1 .hamburger{
     position: absolute;
     left: 82%;
@@ -76,13 +102,13 @@ h1{
 .productwrap{
     background-color: white;
     position: absolute;
-    width: 48%;
-    height: 285px;
+    width: 85%;
+    height: 305px;
     padding: 1rem;
     text-align: center;
     border-radius: 0.3rem;
-    top: 6%;
-    left: 26%;
+    top: 15%;
+    left: 12%;
     align-items: center;
     line-height: 1.5;
     font-weight: 500;
@@ -121,7 +147,6 @@ h1{
     border-radius: 0.2rem;
     margin:1rem 0.2rem;
 }
-
 .fourth a{
     color: black;
 }
@@ -158,10 +183,12 @@ h1{
 .tool1:hover{
     color:  hsl(13, 100%, 72%);
     background-color: white;
+    cursor: pointer;
 }
 .tool2:hover{
     color:  hsl(13, 100%, 72%);
     background-color: white;
+    cursor: pointer;
 }
 .card .div-2{
     text-align: center;
@@ -278,4 +305,111 @@ a{
 }
 .attribution>a{
     color: blue;
+}
+
+@media screen and (min-width:900px){
+    /* .card{
+        width: 600px;
+    } */
+    .card .div-1{
+        background-color:  hsl(13, 100%, 72%);
+        padding: 2rem 3rem;
+        position: relative;
+        width: 630px;
+        max-width: 630px;
+        height: 280px;
+        max-height: 280px;
+        border-bottom-left-radius: 3rem;
+        background-image: url(images/bg-pattern-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 1250px;
+        background-position: top -390px left -250px;
+        margin-bottom: 2.5rem;
+    }
+    .card .div-1 .hamburger{
+       display: none;
+
+    }
+    h1{
+        font-size: 1.8rem;
+        text-align: center;
+        color: white;
+        margin-top: 25px;
+    }
+    .text{
+        font-size: 1.3rem;
+        color:hsl(240, 2%, 79%);
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .tooltip{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0rem;
+        margin-top: 20px;
+    }
+    .tool1{
+        border: 1px solid #fff;
+        border-radius: 25px;
+        padding-top: 0.9rem;
+        text-align: center;
+        font-size: 1rem;
+        height: 50px;
+        color: white;
+        margin-left: 125px;
+        font-weight: bold;
+        width: 130px;
+    }
+    .tool2{
+        border: 1px solid #fff;
+        border-radius: 25px;
+        padding-top: 0.9rem;
+        text-align: center;
+        font-size: 1rem;
+        height: 50px;
+        color: white;
+        margin-left: 5px;
+        font-weight: bold;
+        width: 130px;
+    }
+
+    .fifth:hover{
+        background-color:   hsl(13, 100%, 72%);
+        width: 50%;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        color: #fff;
+        margin-left: 0%;
+        display: none;
+        pointer-events: none;
+    }
+    .sixth:hover{
+        background-color:   hsl(13, 100%, 72%);
+        width: 50%;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        color: white;
+        margin-bottom: 1rem;
+        margin-left: 5%;
+       pointer-events: none;
+    }
+    .log{
+        display: flex;
+       position: absolute;
+       top: 12%;
+       left: 63%;
+       justify-content: center;
+       align-items: center;
+    }
+    .sign{
+        display: flex;
+        position: absolute;
+        left: 80%;
+        top: 12%;
+        justify-content: center;
+        align-items: center;
+    }
 }
