@@ -115,8 +115,9 @@ h2{
     font-weight: 600;
 }
 .div-3{
-    margin-top: 140px;
+    margin-top: 150px;
     margin-bottom: 1rem;
+    position: relative;
 }
 .div-3 .state{
     background-color: hsl(237, 23%, 32%);
@@ -128,7 +129,6 @@ h2{
     max-height: 550px;
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
-    position: relative;
     background-image: url(images/bg-pattern-circles.svg);
     background-size: 300px;
     background-repeat: no-repeat;
@@ -142,10 +142,9 @@ h3{
 .phone{
     width: 140px;
     position: absolute;
-    top: 120%;
-    z-index: 1;
+    top: -25%;
     margin-top: 2.5rem;
-    left: 35%;
+    left: 20%;
     
 }
 .div-4{
