@@ -58,7 +58,7 @@ h1{
     align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 1rem;
+    grid-gap: .4rem;
     margin-top: 20px;
 }
 .tool1{
@@ -69,7 +69,9 @@ h1{
     font-size: 0.7rem;
     height: 40px;
     color: white;
+    margin-left: 5px;
     font-weight: bold;
+    width: 100px;
 }
 .productwrap{
     background-color: white;
@@ -150,6 +152,7 @@ h1{
     font-size: 0.7rem;
     height: 40px;
     color: white;
+    width: 100px;
     font-weight: bold;
 }
 .tool1:hover{
