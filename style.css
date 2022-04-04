@@ -135,9 +135,16 @@ h1{
     text-align: center;
     line-height: 1.5;
     margin-left: 30%;
+    cursor: pointer;
+}
+.first:hover{
+    text-decoration: underline;
 }
 .productwrap img{
     width: 15px;
+}
+.lol{
+    display: none;
 }
 .fourth{
     background-color:  hsl(240, 2%, 89%);
@@ -236,6 +243,16 @@ h2{
     background-repeat: no-repeat;
    
 }
+#product2:hover{
+    text-decoration: underline;
+}
+#company2:hover{
+    text-decoration: underline;
+}
+#connect2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 h3{
     color: white;
     margin-top: 7.7rem;
@@ -306,6 +323,9 @@ a{
 .attribution>a{
     color: blue;
 }
+#grow{
+    text-align: center;
+}
 
 @media screen and (min-width:900px){
     /* .card{
@@ -315,8 +335,8 @@ a{
         background-color:  hsl(13, 100%, 72%);
         padding: 2rem 3rem;
         position: relative;
-        width: 630px;
-        max-width: 630px;
+        width: 880px;
+        max-width: 880px;
         height: 280px;
         max-height: 280px;
         border-bottom-left-radius: 3rem;
@@ -331,7 +351,7 @@ a{
 
     }
     h1{
-        font-size: 1.8rem;
+        font-size: 2rem;
         text-align: center;
         color: white;
         margin-top: 25px;
@@ -339,7 +359,7 @@ a{
     .text{
         font-size: 1.3rem;
         color:hsl(240, 2%, 79%);
-        margin-top: 1.5rem;
+        margin-top: 1.7rem;
         text-align: center;
     }
     .tooltip{
@@ -359,7 +379,7 @@ a{
         font-size: 1rem;
         height: 50px;
         color: white;
-        margin-left: 125px;
+        margin-left: 215px;
         font-weight: bold;
         width: 130px;
     }
@@ -371,7 +391,7 @@ a{
         font-size: 1rem;
         height: 50px;
         color: white;
-        margin-left: 5px;
+        margin-left: -25px;
         font-weight: bold;
         width: 130px;
     }
@@ -399,17 +419,172 @@ a{
     .log{
         display: flex;
        position: absolute;
-       top: 12%;
-       left: 63%;
+       top: 11%;
+       left: 75%;
        justify-content: center;
        align-items: center;
     }
     .sign{
         display: flex;
         position: absolute;
-        left: 80%;
-        top: 12%;
+        left: 86%;
+        top: 11%;
         justify-content: center;
         align-items: center;
+    }
+    .lol{
+        display: flex;
+        position: absolute;
+        top: 9%;
+        color: #fff;
+        gap: 0.1rem;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    #company2{
+        margin-left: 0px;
+    }
+    #connec2t{
+        margin-left: 0px;
+    }
+    .lol img{
+        width: 11px;
+        margin-left: 5px;
+    }
+    .head{
+        width: 70px;
+       margin-top: -8px;
+    }
+    
+    .card .div-2{
+        text-align: center;
+        padding: 1rem;
+        width: 880px;
+        max-width: 880px;
+        height: 500px;
+        max-height: 550px;
+    }
+    .div-22{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2rem;
+    }
+    #flex1{
+        flex: 1;
+        width: 450px;
+
+    }
+    #flex2{
+        flex: 1;
+        text-align:left ;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .intro{
+        font-size: 1.5rem;
+    }
+    .robust{
+        font-size: 1.5rem;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+    }
+    .text{
+        text-align: left;
+    }
+    .div-3{
+    
+        width: 880px;
+    }
+    .div-3 .state{
+        background-color: hsl(237, 23%, 32%);
+        text-align: center;
+        padding: 1rem;
+        width: 880px;
+        max-width: 880px;
+        height: 350px;
+        max-height: 550px;
+        border-top-right-radius: 4rem;
+        border-bottom-left-radius: 4rem;
+        background-image: url(images/bg-pattern-circles.svg);
+        background-size: 300px;
+        background-repeat: no-repeat;
+       text-align: right;
+       display: flex;
+       flex-direction: column;
+       margin-top: -30px;
+       justify-content: center;
+       
+    }
+    h3{
+        margin-bottom: 155px;
+        margin-right: 90px;
+        font-size: 1.5rem;
+    }
+    #phonetext{
+        margin-left: 52%;
+        margin-top: -150px;
+    }
+    .phone{
+        width: 400px;
+        left: 5%;
+    }
+    .div-4{
+        text-align: center;
+        padding: 1rem;
+        width: 880px;
+        max-width: 880px;
+        height: 500px;
+        max-height: 550px;
+        display: flex;
+        gap: 1rem;
+    }
+    #lapd{
+        width: 150px;
+        height: 300px;
+        flex: 1;
+        margin-top: 1rem;
+    }
+    .text4wrap{
+        text-align: left;
+        width: 450px;
+        max-width: 450px;
+        flex: 3;
+        margin-top: 3.5rem;
+    }
+    .text4wrap>p{
+        width: 100%;
+    }
+    .div-5{
+        display: flex;
+        padding: 3rem 0rem;
+    }
+    .div-52{
+      flex: 1;     
+    }
+    .div-53{
+        flex: 1; 
+    }
+    .div-54{
+        flex: 1; 
+    }
+    .div-51{
+        flex: 1; 
+    }
+    #company1{
+        margin-bottom: 1rem;
+    }
+    #touch1{
+        margin-bottom: 1rem;
+    }
+    #connect1{
+        margin-bottom: 1rem;
+    }
+    #product{
+        margin-left: 6rem;
     }
 }
